@@ -1,39 +1,24 @@
-<!-- 
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
-
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages). 
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages). 
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
-
-## Features
-
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+# What is it?
+Floater is a navigation handling package for Flutter, built using Fluro router package
 
 ## Getting started
+![image](https://user-images.githubusercontent.com/13781127/143781048-81d04b3d-136b-4161-acbb-83a0ec615bd1.png)
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Link: https://github.com/PedroSchwarz/floater
 
 ## Usage
+Easily define routes in a single class and use it anywhere.
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
+![image](https://user-images.githubusercontent.com/13781127/143780897-5dacdc29-a957-48be-8270-5e87b41ef0ba.png)
 
-```dart
-const like = 'sample';
-```
+#### Important - While creating the MaterialApp widget, pass the generator function and the NavigatorState key
 
-## Additional information
+![image](https://user-images.githubusercontent.com/13781127/143780978-c84e4160-4b88-4d77-839a-7cb336fde05e.png)
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+Now you can call the created class which extends from Floater, and use the navigation methods
+
+![image](https://user-images.githubusercontent.com/13781127/143781121-3d33b76d-7cb9-46cb-ad6c-730cb1b9d251.png)
+
+![image](https://user-images.githubusercontent.com/13781127/143781143-1574ba23-79ed-403d-b7bc-fd89d1902494.png)
+
+## It's a work in Progress!
